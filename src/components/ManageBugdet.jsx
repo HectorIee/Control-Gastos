@@ -41,7 +41,7 @@ const ManageBugdet = ({ gastos, budget, setGastos, setBudget, setIsValid }) => {
 
   return (
     <div className='bg-white w-4/5 sm:w-8/12 lg:w-5/12  mx-auto translate-y-16 -mt-10 flex flex-col sm:flex-row  justify-between items-center px-4 shadow-md shadow-gray-500 rounded-lg '>
-      <div className='w-7/12 md:w-4/12 mt-5 sm:mb-5 sm:mt-10 lg:my-0 md:mx-auto '>
+      <div className='w-7/12 md:w-4/12 2xl:w-3/12 mt-5 sm:mb-5 sm:mt-10 lg:my-0 md:mx-auto '>
         <CircularProgressbar
           styles={buildStyles({
             pathColor: porcentaje > 100 ? '#dc2626' : '#3b82f6',
